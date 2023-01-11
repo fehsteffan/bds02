@@ -25,7 +25,7 @@ public class CityService {
 		
 	}
 
-	@Transactional(  )
+	@Transactional
 	public CityDTO insert(CityDTO dto) {
 		City entity = new City();
 		entity.setName(dto.getName());
